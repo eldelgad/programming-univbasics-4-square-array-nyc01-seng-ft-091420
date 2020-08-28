@@ -1,11 +1,13 @@
 def square_array(array)
   
-  squared = []
-  counter = 0
-
-  while counter < array
-    squared[counter] = array[counter] ** 2
+  new_array = []
+  counter = 0 
+  
+  while counter < array.length()
+    new_array.push(array[counter] ** array[counter])
     counter += 1
-  end
-
+  end 
+  
+  return new_array
+  
 end
