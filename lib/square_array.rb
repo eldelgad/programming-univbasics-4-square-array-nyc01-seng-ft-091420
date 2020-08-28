@@ -6,6 +6,8 @@ def square_array(array)
   while counter < array.length
     squared.push(array[counter] * array[counter])
     counter += 1
-  end 
+  end
+  
+  puts squared
   
 end
