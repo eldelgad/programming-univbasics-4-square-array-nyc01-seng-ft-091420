@@ -1,10 +1,11 @@
 def square_array(array)
   
-new_numbers = 0
+new_numbers = []
+squared = 0
   
-  while array[new_numbers] do
-    puts array[new_numbers] **
-    counter += 1
+  while array[squared] do
+    puts array[squared] ** new_numbers
+    squared += 1
   end
   
 end
